@@ -1,0 +1,28 @@
+{
+  "name": "bus-ticketing-system",
+  "version": "1.0.0",
+  "description": "A cloud-powered bus ticketing and payment system",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm run install-frontend && npm run install-backend",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && npm install",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && npm run dev",
+    "build": "npm run build-frontend && npm run build-backend",
+    "build-frontend": "cd frontend && npm run build",
+    "build-backend": "cd backend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "bus-ticketing",
+    "payment-system",
+    "travel",
+    "booking"
+  ],
+  "author": "Bus Ticketing System",
+  "license": "MIT"
+}

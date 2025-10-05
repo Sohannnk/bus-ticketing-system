@@ -1,0 +1,16 @@
+{
+  "name": "BusTick - Bus Ticketing System",
+  "short_name": "BusTick",
+  "description": "Your trusted partner for seamless bus ticket booking",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+}
